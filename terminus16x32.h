@@ -11,7 +11,7 @@ struct wsdisplay_font Terminus16x32 = {
 	.stride		= 2,
 	.bitorder	= WSDISPLAY_FONTORDER_L2R,
 	.byteorder	= WSDISPLAY_FONTORDER_L2R,
-	.coockie	= NULL,
+	.cookie	= 	NULL,
 	.data		= Terminus16x32_data
 };
 
